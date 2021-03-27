@@ -1,0 +1,17 @@
+*
+body{
+  background-image: linear-gradient(to right, #2963BB, #951CA1);
+}
+
+{
+  margin: 0;
+  padding: 0;
+}
+.form-group{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.regist-form{
+
+}

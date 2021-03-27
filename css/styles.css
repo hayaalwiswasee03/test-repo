@@ -1,0 +1,38 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: sans-serif;
+  background-image: linear-gradient(to right, #2963BB, #951CA1);
+}
+.no1{
+  color: #hsla(360, 100%, 100%, 0.5);
+  font-size: 50px;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+
+.no1::before{
+  content: '';
+  background-image: linear-gradient(to left, #2963BB, #951CA1);
+  height: 5px;
+  width: 499px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(64px);
+}
+
+.name{
+  font-size: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.articlewords{
+  font-size: 20px;
+  color: #fff;
+}

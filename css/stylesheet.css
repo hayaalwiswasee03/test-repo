@@ -1,0 +1,139 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: sans-serif;
+}
+
+#nav-bar{
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar-brand img{
+  height: 120px;
+  padding-left: 80px;
+}
+.navbar-nav{
+  padding: 0 10px;
+}
+.navbar-nav{
+  color: #hsla(360, 100%, 100%, 0.5);
+  font-weight: 600;
+  float: right;
+  text-align: right;
+}
+.fa-bars{
+  color: #hsla(360, 100%, 100%, 0.5);
+  font-size: 30px !important;
+}
+.navbar-toggler{
+  outline: none !important;
+}
+
+#banner{
+  background-image: linear-gradient(to right, #2963BB, #951CA1);
+  color: #fff;
+  padding-top: 5%;
+  padding-bottom: 0%
+}
+
+.titleuno{
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+.aboutus{
+  font-size: 20px;
+}
+
+.img-uno{
+  padding-left: 200%;
+  padding-bottom: 50%;
+}
+
+
+.image-at-the-bottom{
+  width: 100%;
+}
+
+#Books{
+  padding: 80px 0;
+}
+
+.book1{
+  width: 200px;
+  margin-top: 50px;
+}
+
+.books{
+  padding: 20px;
+
+}
+.books h4{
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.titleduos::before
+{
+  content: '';
+  background-image: linear-gradient(to right, #2963BB, #951CA1);
+  height: 5px;
+  width: 499px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(64px);
+}
+
+#articles{
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.why-us-title{
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 8%;
+}
+
+#articles ul li{
+  margin: 10px 0;
+}
+#articles ul{
+  margin-left: 20px;
+}
+
+#quotes{
+  margin: 100px 0;
+}
+.quotes{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 30px;
+}
+#contact-us{
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+
+#contact-us{
+font-size: 35px;
+font-weight: 600;
+margin-bottom: 30px;
+}
+
+.socialicons img{
+  width: 60px;
+  transition: 0.5s;
+}
+
+.socialicons a:hover img{
+  transform: translateY(-10px);
+}
